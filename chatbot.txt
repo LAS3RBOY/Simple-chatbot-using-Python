@@ -1,0 +1,592 @@
+Data analysis is a process of inspecting, cleansing, transforming, and modelling data with the goal of discovering useful information, informing conclusions, and supporting decision-making.[1] Data analysis has multiple facets and approaches, encompassing diverse techniques under a variety of names, and is used in different business, science, and social science domains.[2] In today's business world, data analysis plays a role in making decisions more scientific and helping businesses operate more effectively.[3]
+
+Data mining is a particular data analysis technique that focuses on statistical modelling and knowledge discovery for predictive rather than purely descriptive purposes, while business intelligence covers data analysis that relies heavily on aggregation, focusing mainly on business information.[4] In statistical applications, data analysis can be divided into descriptive statistics, exploratory data analysis (EDA), and confirmatory data analysis (CDA).[5] EDA focuses on discovering new features in the data while CDA focuses on confirming or falsifying existing hypotheses.[6][7] Predictive analytics focuses on the application of statistical models for predictive forecasting or classification, while text analytics applies statistical, linguistic, and structural techniques to extract and classify information from textual sources, a species of unstructured data. All of the above are varieties of data analysis.[8]
+
+Data integration is a precursor to data analysis, and data analysis is closely linked to data visualization and data dissemination.[9]
+
+
+Contents
+1	The process of data analysis
+1.1	Data requirements
+1.2	Data collection
+1.3	Data processing
+1.4	Data cleaning
+1.5	Exploratory data analysis
+1.6	Modelling and algorithms
+1.7	Data product
+1.8	Communication
+2	Quantitative messages
+3	Techniques for analyzing quantitative data
+4	Analytical activities of data users
+5	Barriers to effective analysis
+5.1	Confusing fact and opinion
+5.2	Cognitive biases
+5.3	Innumeracy
+6	Other topics
+6.1	Smart buildings
+6.2	Analytics and business intelligence
+6.3	Education
+7	Practitioner notes
+7.1	Initial data analysis
+7.1.1	Quality of data
+7.1.2	Quality of measurements
+7.1.3	Initial transformations
+7.1.4	Did the implementation of the study fulfill the intentions of the research design?
+7.1.5	Characteristics of data sample
+7.1.6	Final stage of the initial data analysis
+7.1.7	Analysis
+7.1.8	Nonlinear analysis
+7.2	Main data analysis
+7.2.1	Exploratory and confirmatory approaches
+7.2.2	Stability of results
+8	Free software for data analysis
+9	International data analysis contests
+10	See also
+11	References
+11.1	Citations
+11.2	Bibliography
+12	Further reading
+The process of data analysis
+
+Data science process flowchart from Doing Data Science, by Schutt & O'Neil (2013)
+Analysis, refers to dividing a whole into its separate components for individual examination.[10] Data analysis, is a process for obtaining raw data, and subsequently converting it into information useful for decision-making by users.[1] Data, is collected and analyzed to answer questions, test hypotheses, or disprove theories.[11]
+
+Statistician John Tukey, defined data analysis in 1961, as:
+
+"Procedures for analyzing data, techniques for interpreting the results of such procedures, ways of planning the gathering of data to make its analysis easier, more precise or more accurate, and all the machinery and results of (mathematical) statistics which apply to analyzing data."[12]
+
+There are several phases that can be distinguished, described below. The phases are iterative, in that feedback from later phases may result in additional work in earlier phases.[13] The CRISP framework, used in data mining, has similar steps.
+
+Data requirements
+The data is necessary as inputs to the analysis, which is specified based upon the requirements of those directing the analytics (or customers, who will use the finished product of the analysis).[14][15] The general type of entity upon which the data will be collected is referred to as an experimental unit (e.g., a person or population of people). Specific variables regarding a population (e.g., age and income) may be specified and obtained. Data may be numerical or categorical (i.e., a text label for numbers).[13]
+
+Data collection
+Data is collected from a variety of sources.[16][17] The requirements may be communicated by analysts to custodians of the data; such as, Information Technology personnel within an organization.[18] The data may also be collected from sensors in the environment, including traffic cameras, satellites, recording devices, etc. It may also be obtained through interviews, downloads from online sources, or reading documentation.[13]
+
+Data processing
+
+The phases of the intelligence cycle used to convert raw information into actionable intelligence or knowledge are conceptually similar to the phases in data analysis.
+Data, when initially obtained, must be processed or organized for analysis.[19][20] For instance, these may involve placing data into rows and columns in a table format (known as structured data) for further analysis, often through the use of spreadsheet or statistical software.[13]
+
+Data cleaning
+Main article: Data cleansing
+Once processed and organized, the data may be incomplete, contain duplicates, or contain errors.[21][22] The need for data cleaning will arise from problems in the way that the datum are entered and stored.[21] Data cleaning is the process of preventing and correcting these errors. Common tasks include record matching, identifying inaccuracy of data, overall quality of existing data, deduplication, and column segmentation.[23] Such data problems can also be identified through a variety of analytical techniques. For example; with financial information, the totals for particular variables may be compared against separately published numbers that are believed to be reliable.[24][25] Unusual amounts, above or below predetermined thresholds, may also be reviewed. There are several types of data cleaning, that are dependent upon the type of data in the set; this could be phone numbers, email addresses, employers, or other values.[26][27] Quantitative data methods for outlier detection, can be used to get rid of data that appears to have a higher likelihood of being input incorrectly.[28] Textual data spell checkers can be used to lessen the amount of mis-typed words. However, it is harder to tell if the words themselves are correct.[29]
+
+Exploratory data analysis
+Once the datasets are cleaned, they can then be analyzed. Analysts may apply a variety of techniques, referred to as exploratory data analysis, to begin understanding the messages contained within the obtained data.[30] The process of data exploration may result in additional data cleaning or additional requests for data; thus, the initialization of the iterative phases mentioned in the lead paragraph of this section.[31] Descriptive statistics, such as, the average or median, can be generated to aid in understanding the data.[32][33] Data visualization is also a technique used, in which the analyst is able to examine the data in a graphical format in order to obtain additional insights, regarding the messages within the data.[13]
+
+Modelling and algorithms
+Mathematical formulas or models (known as algorithms), may be applied to the data in order to identify relationships among the variables; for example, using correlation or causation.[34][35] In general terms, models may be developed to evaluate a specific variable based on other variable(s) contained within the dataset, with some residual error depending on the implemented model's accuracy (e.g., Data = Model + Error).[36][11]
+
+Inferential statistics, includes utilizing techniques that measure the relationships between particular variables.[37] For example, regression analysis may be used to model whether a change in advertising (independent variable X), provides an explanation for the variation in sales (dependent variable Y).[38] In mathematical terms, Y (sales) is a function of X (advertising).[39] It may be described as (Y = aX + b + error), where the model is designed such that (a) and (b) minimize the error when the model predicts Y for a given range of values of X.[40] Analysts may also attempt to build models that are descriptive of the data, in an aim to simplify analysis and communicate results.[11]
+
+Data product
+A data product is a computer application that takes data inputs and generates outputs, feeding them back into the environment.[41] It may be based on a model or algorithm. For instance, an application that analyzes data about customer purchase history, and uses the results to recommend other purchases the customer might enjoy.[42][13]
+
+Communication
+
+Data visualization is used to help understand the results after data is analyzed.[43]
+Main article: Data visualization
+Once data is analyzed, it may be reported in many formats to the users of the analysis to support their requirements.[44] The users may have feedback, which results in additional analysis. As such, much of the analytical cycle is iterative.[13]
+
+When determining how to communicate the results, the analyst may consider implementing a variety of data visualization techniques to help communicate the message more clearly and efficiently to the audience.[45] Data visualization uses information displays (graphics such as, tables and charts) to help communicate key messages contained in the data.[46] Tables are a valuable tool by enabling the ability of a user to query and focus on specific numbers; while charts (e.g., bar charts or line charts), may help explain the quantitative messages contained in the data.[47]
+
+Quantitative messages
+Main article: Data visualization
+
+A time series illustrated with a line chart demonstrating trends in U.S. federal spending and revenue over time.
+
+A scatterplot illustrating the correlation between two variables (inflation and unemployment) measured at points in time.
+Stephen Few described eight types of quantitative messages that users may attempt to understand or communicate from a set of data and the associated graphs used to help communicate the message.[48] Customers specifying requirements and analysts performing the data analysis may consider these messages during the course of the process.[49]
+
+Time-series: A single variable is captured over a period of time, such as the unemployment rate over a 10-year period. A line chart may be used to demonstrate the trend.[50]
+Ranking: Categorical subdivisions are ranked in ascending or descending order, such as a ranking of sales performance (the measure) by salespersons (the category, with each salesperson a categorical subdivision) during a single period.[51] A bar chart may be used to show the comparison across the salespersons.[52]
+Part-to-whole: Categorical subdivisions are measured as a ratio to the whole (i.e., a percentage out of 100%). A pie chart or bar chart can show the comparison of ratios, such as the market share represented by competitors in a market.[53]
+Deviation: Categorical subdivisions are compared against a reference, such as a comparison of actual vs. budget expenses for several departments of a business for a given time period. A bar chart can show the comparison of the actual versus the reference amount.[54]
+Frequency distribution: Shows the number of observations of a particular variable for a given interval, such as the number of years in which the stock market return is between intervals such as 0–10%, 11–20%, etc. A histogram, a type of bar chart, may be used for this analysis.[55]
+Correlation: Comparison between observations represented by two variables (X,Y) to determine if they tend to move in the same or opposite directions. For example, plotting unemployment (X) and inflation (Y) for a sample of months. A scatter plot is typically used for this message.[56]
+Nominal comparison: Comparing categorical subdivisions in no particular order, such as the sales volume by product code. A bar chart may be used for this comparison.[57]
+Geographic or geospatial: Comparison of a variable across a map or layout, such as the unemployment rate by state or the number of persons on the various floors of a building. A cartogram is a typical graphic used.[58][59]
+Techniques for analyzing quantitative data
+See also: Problem solving
+Author Jonathan Koomey has recommended a series of best practices for understanding quantitative data.[60] These include:
+
+Check raw data for anomalies prior to performing an analysis;
+Re-perform important calculations, such as verifying columns of data that are formula driven;
+Confirm main totals are the sum of subtotals;
+Check relationships between numbers that should be related in a predictable way, such as ratios over time;
+Normalize numbers to make comparisons easier, such as analyzing amounts per person or relative to GDP or as an index value relative to a base year;
+Break problems into component parts by analyzing factors that led to the results, such as DuPont analysis of return on equity.[25]
+For the variables under examination, analysts typically obtain descriptive statistics for them, such as the mean (average), median, and standard deviation.[61] They may also analyze the distribution of the key variables to see how the individual values cluster around the mean.[62]
+
+
+An illustration of the MECE principle used for data analysis.
+The consultants at McKinsey and Company named a technique for breaking a quantitative problem down into its component parts called the MECE principle.[63] Each layer can be broken down into its components; each of the sub-components must be mutually exclusive of each other and collectively add up to the layer above them.[64] The relationship is referred to as "Mutually Exclusive and Collectively Exhaustive" or MECE. For example, profit by definition can be broken down into total revenue and total cost.[65] In turn, total revenue can be analyzed by its components, such as the revenue of divisions A, B, and C (which are mutually exclusive of each other) and should add to the total revenue (collectively exhaustive).[66]
+
+Analysts may use robust statistical measurements to solve certain analytical problems.[67] Hypothesis testing is used when a particular hypothesis about the true state of affairs is made by the analyst and data is gathered to determine whether that state of affairs is true or false.[68][69] For example, the hypothesis might be that "Unemployment has no effect on inflation", which relates to an economics concept called the Phillips Curve.[70] Hypothesis testing involves considering the likelihood of Type I and type II errors, which relate to whether the data supports accepting or rejecting the hypothesis.[71][72]
+
+Regression analysis may be used when the analyst is trying to determine the extent to which independent variable X affects dependent variable Y (e.g., "To what extent do changes in the unemployment rate (X) affect the inflation rate (Y)?").[73] This is an attempt to model or fit an equation line or curve to the data, such that Y is a function of X.[74][75]
+
+Necessary condition analysis (NCA) may be used when the analyst is trying to determine the extent to which independent variable X allows variable Y (e.g., "To what extent is a certain unemployment rate (X) necessary for a certain inflation rate (Y)?").[73] Whereas (multiple) regression analysis uses additive logic where each X-variable can produce the outcome and the X's can compensate for each other (they are sufficient but not necessary),[76] necessary condition analysis (NCA) uses necessity logic, where one or more X-variables allow the outcome to exist, but may not produce it (they are necessary but not sufficient). Each single necessary condition must be present and compensation is not possible.[77]
+
+Analytical activities of data users
+Users may have particular data points of interest within a data set, as opposed to the general messaging outlined above. Such low-level user analytic activities are presented in the following table. The taxonomy can also be organized by three poles of activities: retrieving values, finding data points, and arranging data points.[78][79][80][81]
+
+#	Task	General
+Description	Pro Forma
+Abstract	Examples
+1	Retrieve Value	Given a set of specific cases, find attributes of those cases.	What are the values of attributes {X, Y, Z, ...} in the data cases {A, B, C, ...}?	- What is the mileage per gallon of the Ford Mondeo?
+- How long is the movie Gone with the Wind?
+
+2	Filter	Given some concrete conditions on attribute values, find data cases satisfying those conditions.	Which data cases satisfy conditions {A, B, C...}?	- What Kellogg's cereals have high fiber?
+- What comedies have won awards?
+
+- Which funds underperformed the SP-500?
+
+3	Compute Derived Value	Given a set of data cases, compute an aggregate numeric representation of those data cases.	What is the value of aggregation function F over a given set S of data cases?	- What is the average calorie content of Post cereals?
+- What is the gross income of all stores combined?
+
+- How many manufacturers of cars are there?
+
+4	Find Extremum	Find data cases possessing an extreme value of an attribute over its range within the data set.	What are the top/bottom N data cases with respect to attribute A?	- What is the car with the highest MPG?
+- What director/film has won the most awards?
+
+- What Marvel Studios film has the most recent release date?
+
+5	Sort	Given a set of data cases, rank them according to some ordinal metric.	What is the sorted order of a set S of data cases according to their value of attribute A?	- Order the cars by weight.
+- Rank the cereals by calories.
+
+6	Determine Range	Given a set of data cases and an attribute of interest, find the span of values within the set.	What is the range of values of attribute A in a set S of data cases?	- What is the range of film lengths?
+- What is the range of car horsepowers?
+
+- What actresses are in the data set?
+
+7	Characterize Distribution	Given a set of data cases and a quantitative attribute of interest, characterize the distribution of that attribute's values over the set.	What is the distribution of values of attribute A in a set S of data cases?	- What is the distribution of carbohydrates in cereals?
+- What is the age distribution of shoppers?
+
+8	Find Anomalies	Identify any anomalies within a given set of data cases with respect to a given relationship or expectation, e.g. statistical outliers.	Which data cases in a set S of data cases have unexpected/exceptional values?	- Are there exceptions to the relationship between horsepower and acceleration?
+- Are there any outliers in protein?
+
+9	Cluster	Given a set of data cases, find clusters of similar attribute values.	Which data cases in a set S of data cases are similar in value for attributes {X, Y, Z, ...}?	- Are there groups of cereals w/ similar fat/calories/sugar?
+- Is there a cluster of typical film lengths?
+
+10	Correlate	Given a set of data cases and two attributes, determine useful relationships between the values of those attributes.	What is the correlation between attributes X and Y over a given set S of data cases?	- Is there a correlation between carbohydrates and fat?
+- Is there a correlation between country of origin and MPG?
+
+- Do different genders have a preferred payment method?
+
+- Is there a trend of increasing film length over the years?
+
+11	Contextualization[81]	Given a set of data cases, find contextual relevancy of the data to the users.	Which data cases in a set S of data cases are relevant to the current users' context?	- Are there groups of restaurants that have foods based on my current caloric intake?
+Barriers to effective analysis
+Barriers to effective analysis may exist among the analysts performing the data analysis or among the audience. Distinguishing fact from opinion, cognitive biases, and innumeracy are all challenges to sound data analysis.[82]
+
+Confusing fact and opinion
+You are entitled to your own opinion, but you are not entitled to your own facts.
+
+Daniel Patrick Moynihan
+Effective analysis requires obtaining relevant facts to answer questions, support a conclusion or formal opinion, or test hypotheses.[83][84] Facts by definition are irrefutable, meaning that any person involved in the analysis should be able to agree upon them.[85] For example, in August 2010, the Congressional Budget Office (CBO) estimated that extending the Bush tax cuts of 2001 and 2003 for the 2011–2020 time period would add approximately $3.3 trillion to the national debt.[86] Everyone should be able to agree that indeed this is what CBO reported; they can all examine the report. This makes it a fact. Whether persons agree or disagree with the CBO is their own opinion.[87]
+
+As another example, the auditor of a public company must arrive at a formal opinion on whether financial statements of publicly traded corporations are "fairly stated, in all material respects".[88] This requires extensive analysis of factual data and evidence to support their opinion. When making the leap from facts to opinions, there is always the possibility that the opinion is erroneous.[89]
+
+Cognitive biases
+There are a variety of cognitive biases that can adversely affect analysis. For example, confirmation bias is the tendency to search for or interpret information in a way that confirms one's preconceptions.[90] In addition, individuals may discredit information that does not support their views.[91]
+
+Analysts may be trained specifically to be aware of these biases and how to overcome them.[92] In his book Psychology of Intelligence Analysis, retired CIA analyst Richards Heuer wrote that analysts should clearly delineate their assumptions and chains of inference and specify the degree and source of the uncertainty involved in the conclusions.[93] He emphasized procedures to help surface and debate alternative points of view.[94]
+
+Innumeracy
+Effective analysts are generally adept with a variety of numerical techniques. However, audiences may not have such literacy with numbers or numeracy; they are said to be innumerate.[95] Persons communicating the data may also be attempting to mislead or misinform, deliberately using bad numerical techniques.[96]
+
+For example, whether a number is rising or falling may not be the key factor. More important may be the number relative to another number, such as the size of government revenue or spending relative to the size of the economy (GDP) or the amount of cost relative to revenue in corporate financial statements.[97] This numerical technique is referred to as normalization[25] or common-sizing. There are many such techniques employed by analysts, whether adjusting for inflation (i.e., comparing real vs. nominal data) or considering population increases, demographics, etc.[98] Analysts apply a variety of techniques to address the various quantitative messages described in the section above.[99]
+
+Analysts may also analyze data under different assumptions or scenario. For example, when analysts perform financial statement analysis, they will often recast the financial statements under different assumptions to help arrive at an estimate of future cash flow, which they then discount to present value based on some interest rate, to determine the valuation of the company or its stock.[100][101] Similarly, the CBO analyzes the effects of various policy options on the government's revenue, outlays and deficits, creating alternative future scenarios for key measures.[102]
+
+Other topics
+Smart buildings
+A data analytics approach can be used in order to predict energy consumption in buildings.[103] The different steps of the data analysis process are carried out in order to realise smart buildings, where the building management and control operations including heating, ventilation, air conditioning, lighting and security are realised automatically by miming the needs of the building users and optimising resources like energy and time.[104]
+
+Analytics and business intelligence
+Main article: Analytics
+Analytics is the "extensive use of data, statistical and quantitative analysis, explanatory and predictive models, and fact-based management to drive decisions and actions." It is a subset of business intelligence, which is a set of technologies and processes that uses data to understand and analyze business performance to drive decision-making .[105]
+
+Education
+
+Analytic activities of data visualization users
+In education, most educators have access to a data system for the purpose of analyzing student data.[106] These data systems present data to educators in an over-the-counter data format (embedding labels, supplemental documentation, and a help system and making key package/display and content decisions) to improve the accuracy of educators’ data analyses.[107]
+
+Practitioner notes
+This section contains rather technical explanations that may assist practitioners but are beyond the typical scope of a Wikipedia article.[108]
+
+Initial data analysis
+The most important distinction between the initial data analysis phase and the main analysis phase, is that during initial data analysis one refrains from any analysis that is aimed at answering the original research question.[109] The initial data analysis phase is guided by the following four questions:[110]
+
+Quality of data
+The quality of the data should be checked as early as possible. Data quality can be assessed in several ways, using different types of analysis: frequency counts, descriptive statistics (mean, standard deviation, median), normality (skewness, kurtosis, frequency histograms), normal imputation is needed.[111]
+
+Analysis of extreme observations: outlying observations in the data are analyzed to see if they seem to disturb the distribution.[112]
+Comparison and correction of differences in coding schemes: variables are compared with coding schemes of variables external to the data set, and possibly corrected if coding schemes are not comparable.[113]
+Test for common-method variance.
+The choice of analyses to assess the data quality during the initial data analysis phase depends on the analyses that will be conducted in the main analysis phase.[114]
+
+Quality of measurements
+The quality of the measurement instruments should only be checked during the initial data analysis phase when this is not the focus or research question of the study.[115][116] One should check whether structure of measurement instruments corresponds to structure reported in the literature.
+
+There are two ways to assess measurement quality:
+
+Confirmatory factor analysis
+Analysis of homogeneity (internal consistency), which gives an indication of the reliability of a measurement instrument.[117] During this analysis, one inspects the variances of the items and the scales, the Cronbach's a of the scales, and the change in the Cronbach's alpha when an item would be deleted from a scale[118]
+Initial transformations
+After assessing the quality of the data and of the measurements, one might decide to impute missing data, or to perform initial transformations of one or more variables, although this can also be done during the main analysis phase.[119]
+Possible transformations of variables are:[120]
+
+Square root transformation (if the distribution differs moderately from normal)
+Log-transformation (if the distribution differs substantially from normal)
+Inverse transformation (if the distribution differs severely from normal)
+Make categorical (ordinal / dichotomous) (if the distribution differs severely from normal, and no transformations help)
+Did the implementation of the study fulfill the intentions of the research design?
+One should check the success of the randomization procedure, for instance by checking whether background and substantive variables are equally distributed within and across groups.[121]
+If the study did not need or use a randomization procedure, one should check the success of the non-random sampling, for instance by checking whether all subgroups of the population of interest are represented in sample.[122]
+Other possible data distortions that should be checked are:
+
+dropout (this should be identified during the initial data analysis phase)
+Item non-response (whether this is random or not should be assessed during the initial data analysis phase)
+Treatment quality (using manipulation checks).[123]
+Characteristics of data sample
+In any report or article, the structure of the sample must be accurately described.[124][125] It is especially important to exactly determine the structure of the sample (and specifically the size of the subgroups) when subgroup analyses will be performed during the main analysis phase.[126]
+The characteristics of the data sample can be assessed by looking at:
+
+Basic statistics of important variables
+Scatter plots
+Correlations and associations
+Cross-tabulations[127]
+Final stage of the initial data analysis
+During the final stage, the findings of the initial data analysis are documented, and necessary, preferable, and possible corrective actions are taken.[128]
+Also, the original plan for the main data analyses can and should be specified in more detail or rewritten.[129][130]
+In order to do this, several decisions about the main data analyses can and should be made:
+
+In the case of non-normals: should one transform variables; make variables categorical (ordinal/dichotomous); adapt the analysis method?
+In the case of missing data: should one neglect or impute the missing data; which imputation technique should be used?
+In the case of outliers: should one use robust analysis techniques?
+In case items do not fit the scale: should one adapt the measurement instrument by omitting items, or rather ensure comparability with other (uses of the) measurement instrument(s)?
+In the case of (too) small subgroups: should one drop the hypothesis about inter-group differences, or use small sample techniques, like exact tests or bootstrapping?
+In case the randomization procedure seems to be defective: can and should one calculate propensity scores and include them as covariates in the main analyses?[131]
+Analysis
+Several analyses can be used during the initial data analysis phase:[132]
+
+Univariate statistics (single variable)
+Bivariate associations (correlations)
+Graphical techniques (scatter plots)
+It is important to take the measurement levels of the variables into account for the analyses, as special statistical techniques are available for each level:[133]
+
+Nominal and ordinal variables
+Frequency counts (numbers and percentages)
+Associations
+circumambulations (crosstabulations)
+hierarchical loglinear analysis (restricted to a maximum of 8 variables)
+loglinear analysis (to identify relevant/important variables and possible confounders)
+Exact tests or bootstrapping (in case subgroups are small)
+Computation of new variables
+Continuous variables
+Distribution
+Statistics (M, SD, variance, skewness, kurtosis)
+Stem-and-leaf displays
+Box plots
+Nonlinear analysis
+Nonlinear analysis is often necessary when the data is recorded from a nonlinear system. Nonlinear systems can exhibit complex dynamic effects including bifurcations, chaos, harmonics and subharmonics that cannot be analyzed using simple linear methods. Nonlinear data analysis is closely related to nonlinear system identification.[134]
+
+Main data analysis
+In the main analysis phase, analyses aimed at answering the research question are performed as well as any other relevant analysis needed to write the first draft of the research report.[135]
+
+Exploratory and confirmatory approaches
+In the main analysis phase, either an exploratory or confirmatory approach can be adopted. Usually the approach is decided before data is collected.[136] In an exploratory analysis no clear hypothesis is stated before analysing the data, and the data is searched for models that describe the data well.[137] In a confirmatory analysis clear hypotheses about the data are tested.[138]
+
+Exploratory data analysis should be interpreted carefully. When testing multiple models at once there is a high chance on finding at least one of them to be significant, but this can be due to a type 1 error.[139] It is important to always adjust the significance level when testing multiple models with, for example, a Bonferroni correction.[140] Also, one should not follow up an exploratory analysis with a confirmatory analysis in the same dataset.[141] An exploratory analysis is used to find ideas for a theory, but not to test that theory as well.[141] When a model is found exploratory in a dataset, then following up that analysis with a confirmatory analysis in the same dataset could simply mean that the results of the confirmatory analysis are due to the same type 1 error that resulted in the exploratory model in the first place.[141] The confirmatory analysis therefore will not be more informative than the original exploratory analysis.[142]
+
+Stability of results
+It is important to obtain some indication about how generalizable the results are.[143] While this is often difficult to check, one can look at the stability of the results. Are the results reliable and reproducible? There are two main ways of doing that.[144]
+
+Cross-validation. By splitting the data into multiple parts, we can check if an analysis (like a fitted model) based on one part of the data generalizes to another part of the data as well.[145] Cross-validation is generally inappropriate, though, if there are correlations within the data, e.g. with panel data.[146] Hence other methods of validation sometimes need to be used. For more on this topic, see statistical model validation.[147]
+Sensitivity analysis. A procedure to study the behavior of a system or model when global parameters are (systematically) varied. One way to do that is via bootstrapping.[148]
+Free software for data analysis
+Notable free software for data analysis include:
+
+DevInfo – A database system endorsed by the United Nations Development Group for monitoring and analyzing human development.[149]
+ELKI – Data mining framework in Java with data mining oriented visualization functions.
+KNIME – The Konstanz Information Miner, a user friendly and comprehensive data analytics framework.
+Orange – A visual programming tool featuring interactive data visualization and methods for statistical data analysis, data mining, and machine learning.
+Pandas – Python library for data analysis.
+PAW – FORTRAN/C data analysis framework developed at CERN.
+R – A programming language and software environment for statistical computing and graphics.[150]
+ROOT – C++ data analysis framework developed at CERN.
+SciPy – Python library for data analysis.
+Julia - A programming language well-suited for numerical analysis and computational science.
+International data analysis contests
+Different companies or organizations hold data analysis contests to encourage researchers to utilize their data or to solve a particular question using data analysis.[151][152] A few examples of well-known international data analysis contests are as follows:[153]
+
+Kaggle competition, which is held by Kaggle.[154]
+LTPP data analysis contest held by FHWA and ASCE.[155][156]
+See also
+Actuarial science
+Analytics
+Big data
+Business intelligence
+Censoring (statistics)
+Computational physics
+Data acquisition
+Data blending
+Data governance
+Data mining
+Data Presentation Architecture
+Data science
+Digital signal processing
+Dimension reduction
+Early case assessment
+Exploratory data analysis
+Fourier analysis
+Machine learning
+Multilinear PCA
+Multilinear subspace learning
+Multiway data analysis
+Nearest neighbor search
+Nonlinear system identification
+Predictive analytics
+Principal component analysis
+Qualitative research
+Scientific computing
+Structured data analysis (statistics)
+System identification
+Test method
+Text analytics
+Unstructured data
+Wavelet
+List of big data companies
+References
+Citations
+ "Transforming Unstructured Data into Useful Information", Big Data, Mining, and Analytics, Auerbach Publications, pp. 227–246, 2014-03-12, doi:10.1201/b16666-14, ISBN 978-0-429-09529-0, retrieved 2021-05-29
+ "The Multiple Facets of Correlation Functions", Data Analysis Techniques for Physical Scientists, Cambridge University Press, pp. 526–576, 2017, doi:10.1017/9781108241922.013, ISBN 978-1-108-41678-8, retrieved 2021-05-29
+ Xia, B. S., & Gong, P. (2015). Review of business intelligence through data analysis. Benchmarking, 21(2), 300-311. doi:10.1108/BIJ-08-2012-0050
+ Exploring Data Analysis
+ "Data Coding and Exploratory Analysis (EDA) Rules for Data Coding Exploratory Data Analysis (EDA) Statistical Assumptions", SPSS for Intermediate Statistics, Routledge, pp. 42–67, 2004-08-16, doi:10.4324/9781410611420-6, ISBN 978-1-4106-1142-0, retrieved 2021-05-29
+ Spie (2014-10-01). "New European ICT call focuses on PICs, lasers, data transfer". SPIE Professional. doi:10.1117/2.4201410.10. ISSN 1994-4403.
+ Samandar, Petersson; Svantesson, Sofia (2017). Skapandet av förtroende inom eWOM : En studie av profilbildens effekt ur ett könsperspektiv. Högskolan i Gävle, Företagsekonomi. OCLC 1233454128.
+ Goodnight, James (2011-01-13). "The forecast for predictive analytics: hot and getting hotter". Statistical Analysis and Data Mining: The ASA Data Science Journal. 4 (1): 9–10. doi:10.1002/sam.10106. ISSN 1932-1864. S2CID 38571193.
+ Sherman, Rick (4 November 2014). Business intelligence guidebook: from data integration to analytics. Amsterdam. ISBN 978-0-12-411528-6. OCLC 894555128.
+ Field, John (2009), "Dividing listening into its components", Listening in the Language Classroom, Cambridge: Cambridge University Press, pp. 96–109, doi:10.1017/cbo9780511575945.008, ISBN 978-0-511-57594-5, retrieved 2021-05-29
+ Judd, Charles; McCleland, Gary (1989). Data Analysis. Harcourt Brace Jovanovich. ISBN 0-15-516765-0.
+ John Tukey-The Future of Data Analysis-July 1961
+ Schutt, Rachel; O'Neil, Cathy (2013). Doing Data Science. O'Reilly Media. ISBN 978-1-449-35865-5.
+ "USE OF THE DATA", Handbook of Petroleum Product Analysis, Hoboken, NJ: John Wiley & Sons, Inc, pp. 296–303, 2015-02-06, doi:10.1002/9781118986370.ch18, ISBN 978-1-118-98637-0, retrieved 2021-05-29
+ Ainsworth, Penne (20 May 2019). Introduction to accounting : an integrated approach. ISBN 978-1-119-60014-5. OCLC 1097366032.
+ Margo, Robert A. (2000). Wages and labor markets in the United States, 1820-1860. University of Chicago Press. ISBN 0-226-50507-3. OCLC 41285104.
+ Olusola, Johnson Adedeji; Shote, Adebola Adekunle; Ouigmane, Abdellah; Isaifan, Rima J. (7 May 2021). "Table 1: Data type and sources of data collected for this research". PeerJ. 9: e11387. doi:10.7717/peerj.11387/table-1. Retrieved 2021-05-29.
+ MacPherson, Derek (2019-10-16), "Information Technology Analysts' Perspectives", Data Strategy in Colleges and Universities, Routledge, pp. 168–183, doi:10.4324/9780429437564-12, ISBN 978-0-429-43756-4, S2CID 211738958, retrieved 2021-05-29
+ Nelson, Stephen L. (2014). Excel data analysis for dummies. Wiley. ISBN 978-1-118-89810-9. OCLC 877772392.
+ "Figure 3—source data 1. Raw and processed values obtained through qPCR". dx.doi.org. 30 August 2017. doi:10.7554/elife.28468.029. Retrieved 2021-05-29.
+ Bohannon, John (2016-02-24). "Many surveys, about one in five, may contain fraudulent data". Science. doi:10.1126/science.aaf4104. ISSN 0036-8075.
+ Jeannie Scruggs, Garber; Gross, Monty; Slonim, Anthony D. (2010). Avoiding common nursing errors. Wolters Kluwer Health/Lippincott Williams & Wilkins. ISBN 978-1-60547-087-0. OCLC 338288678.
+ "Data Cleaning". Microsoft Research. Retrieved 26 October 2013.
+ Hancock, R.G.V.; Carter, Tristan (February 2010). "How reliable are our published archaeometric analyses? Effects of analytical techniques through time on the elemental analysis of obsidians". Journal of Archaeological Science. 37 (2): 243–250. doi:10.1016/j.jas.2009.10.004. ISSN 0305-4403.
+ Perceptual Edge-Jonathan Koomey-Best practices for understanding quantitative data-February 14, 2006
+ Peleg, Roni; Avdalimov, Angelika; Freud, Tamar (2011-03-23). "Providing cell phone numbers and email addresses to Patients: the physician's perspective". BMC Research Notes. 4 (1): 76. doi:10.1186/1756-0500-4-76. ISSN 1756-0500. PMC 3076270. PMID 21426591.
+ Goodman, Lenn Evan (1998). Judaism, human rights, and human values. Oxford University Press. ISBN 0-585-24568-1. OCLC 45733915.
+ Hanzo, Lajos. "Blind joint maximum likelihood channel estimation and data detection for single-input multiple-output systems". dx.doi.org. doi:10.1049/iet-tv.44.786. Retrieved 2021-05-29.
+ Hellerstein, Joseph (27 February 2008). "Quantitative Data Cleaning for Large Databases" (PDF). EECS Computer Science Division: 3. Retrieved 26 October 2013.
+ Davis, Steve; Pettengill, James B.; Luo, Yan; Payne, Justin; Shpuntoff, Al; Rand, Hugh; Strain, Errol (26 August 2015). "CFSAN SNP Pipeline: An automated method for constructing SNP matrices from next-generation sequence data". PeerJ Computer Science. 1: e20. doi:10.7717/peerj-cs.20/supp-1. Retrieved 2021-05-31.
+ "FTC requests additional data". Pump Industry Analyst. 1999 (48): 12. December 1999. doi:10.1016/s1359-6128(99)90509-8. ISSN 1359-6128.
+ "Exploring your Data with Data Visualization & Descriptive Statistics: Common Descriptive Statistics for Quantitative Data". 2017. doi:10.4135/9781529732795.
+ Murray, Daniel G. (2013). Tableau your data! : fast and easy visual analysis with Tableau Software. J. Wiley & Sons. ISBN 978-1-118-61204-0. OCLC 873810654.
+ Ben-Ari, Mordechai (2012), "First-Order Logic: Formulas, Models, Tableaux", Mathematical Logic for Computer Science, London: Springer London, pp. 131–154, doi:10.1007/978-1-4471-4129-7_7, ISBN 978-1-4471-4128-0, retrieved 2021-05-31
+ Sosa, Ernest (2011). Causation. Oxford Univ. Press. ISBN 978-0-19-875094-9. OCLC 767569031.
+ Evans, Michelle V.; Dallas, Tad A.; Han, Barbara A.; Murdock, Courtney C.; Drake, John M. (28 February 2017). Brady, Oliver (ed.). "Figure 2. Variable importance by permutation, averaged over 25 models". eLife. 6: e22053. doi:10.7554/elife.22053.004. Retrieved 2021-05-31.
+ Watson, Kevin; Halperin, Israel; Aguilera-Castells, Joan; Iacono, Antonio Dello (12 November 2020). "Table 3: Descriptive (mean ± SD), inferential (95% CI) and qualitative statistics (ES) of all variables between self-selected and predetermined conditions". PeerJ. 8: e10361. doi:10.7717/peerj.10361/table-3. Retrieved 2021-05-31.
+ Cortés-Molino, Álvaro; Aulló-Maestro, Isabel; Fernandez-Luque, Ismael; Flores-Moya, Antonio; Carreira, José A.; Salvo, A. Enrique (22 October 2020). "Table 3: Best regression models between LIDAR data (independent variable) and field-based Forestereo data (dependent variable), used to map spatial distribution of the main forest structure variables". PeerJ. 8: e10158. doi:10.7717/peerj.10158/table-3. Retrieved 2021-05-31.
+ International Sales Terms, Beck/Hart, 2014, doi:10.5040/9781472561671.ch-003, ISBN 978-1-4725-6167-1, retrieved 2021-05-31
+ Nwabueze, JC (2008-05-21). "Performances of estimators of linear model with auto-correlated error terms when the independent variable is normal". Journal of the Nigerian Association of Mathematical Physics. 9 (1). doi:10.4314/jonamp.v9i1.40071. ISSN 1116-4336.
+ Conway, Steve (2012-07-04). "A Cautionary Note on Data Inputs and Visual Outputs in Social Network Analysis". British Journal of Management. 25 (1): 102–117. doi:10.1111/j.1467-8551.2012.00835.x. hdl:2381/36068. ISSN 1045-3172. S2CID 154347514.
+ "Customer Purchases and Other Repeated Events", Data Analysis Using SQL and Excel®, Indianapolis, Indiana: John Wiley & Sons, Inc., pp. 367–420, 2016-01-29, doi:10.1002/9781119183419.ch8, ISBN 978-1-119-18341-9, retrieved 2021-05-31
+ Grandjean, Martin (2014). "La connaissance est un réseau" (PDF). Les Cahiers du Numérique. 10 (3): 37–54. doi:10.3166/lcn.10.3.37-54.
+ Data requirements for semiconductor die. Exchange data formats and data dictionary, BSI British Standards, doi:10.3403/02271298, retrieved 2021-05-31
+ Yee, D. (1985-04-01). "How to Communicate Your Message to an Audience Effectively". The Gerontologist. 25 (2): 209. doi:10.1093/geront/25.2.209. ISSN 0016-9013.
+ Bemowska-Kalabun, Olga; Wasowicz, Pawel; Napora-Rutkowski, Lukasz; Nowak-Zyczynska, Zuzanna; Wierzbicka, Malgorzata (11 June 2019). "Supplemental Information 1: Raw data for charts and tables". doi:10.7287/peerj.preprints.27793v1/supp-1. Retrieved 2021-05-31.
+ Visualizing Data About UK Museums: Bar Charts, Line Charts and Heat Maps. 2021. doi:10.4135/9781529768749. ISBN 9781529768749. S2CID 240967380.
+ Tunqui Neira, José Manuel (2019-09-19). "Thank you for your review. Please find in the attached pdf file a detailed response to the points you raised". dx.doi.org. doi:10.5194/hess-2019-325-ac2. S2CID 241041810. Retrieved 2021-06-01.
+ Brackett, John W. (1989), "Performing Requirements Analysis Project Courses for External Customers", Issues in Software Engineering Education, New York, NY: Springer New York, pp. 276–285, doi:10.1007/978-1-4613-9614-7_20, ISBN 978-1-4613-9616-1, retrieved 2021-06-03
+ Wyckhuys, Kris A. G.; Wongtiem, Prapit; Rauf, Aunu; Thancharoen, Anchana; Heimpel, George E.; Le, Nhung T. T.; Fanani, Muhammad Zainal; Gurr, Geoff M.; Lundgren, Jonathan G.; Burra, Dharani D.; Palao, Leo K.; Hyman, Glenn; Graziosi, Ignazio; Le, Vi X.; Cock, Matthew J. W.; Tscharntke, Teja; Wratten, Steve D.; Nguyen, Liem V.; You, Minsheng; Lu, Yanhui; Ketelaar, Johannes W.; Goergen, Georg; Neuenschwander, Peter (19 October 2018). "Figure 2: Bi-monthly mealybug population fluctuations in southern Vietnam, over a 2-year time period". PeerJ. 6: e5796. doi:10.7717/peerj.5796/fig-2. Retrieved 2021-06-03.
+ Riehl, Emily (2014), "A sampling of 2-categorical aspects of quasi-category theory", Categorical Homotopy Theory, Cambridge: Cambridge University Press, pp. 318–336, doi:10.1017/cbo9781107261457.019, ISBN 978-1-107-26145-7, retrieved 2021-06-03
+ "X-BAR CHART", SpringerReference, Berlin/Heidelberg: Springer-Verlag, 2011, doi:10.1007/springerreference_7402, retrieved 2021-06-03
+ "Chart C5.3. Percentage of 15-19 year-olds not in education, by labour market status (2012)". dx.doi.org. doi:10.1787/888933119055. Retrieved 2021-06-03.
+ "Chart 7: Households: final consumption expenditure versus actual individual consumption". dx.doi.org. doi:10.1787/665527077310. Retrieved 2021-06-03.
+ Chao, Luke H.; Jang, Jaebong; Johnson, Adam; Nguyen, Anthony; Gray, Nathanael S.; Yang, Priscilla L.; Harrison, Stephen C. (12 July 2018). Jahn, Reinhard; Schekman, Randy (eds.). "Figure 4. Frequency of hemifusion (measured as DiD fluorescence dequenching) as a function of number of bound Alexa-fluor-555/3-110-22 molecules". eLife. 7: e36461. doi:10.7554/elife.36461.006. Retrieved 2021-06-03.
+ Garnier, Elodie M.; Fouret, Nastasia; Descoins, Médéric (3 February 2020). "Table 2: Graph comparison between Scatter plot, Violin + Scatter plot, Heatmap and ViSiElse graph". PeerJ. 8: e8341. doi:10.7717/peerj.8341/table-2. Retrieved 2021-06-03.
+ "Product comparison chart: Wearables". PsycEXTRA Dataset. 2009. doi:10.1037/e539162010-006. Retrieved 2021-06-03.
+ Stephen Few-Perceptual Edge-Selecting the Right Graph for Your Message-2004
+ Stephen Few-Perceptual Edge-Graph Selection Matrix
+ "Recommended Best Practices". dx.doi.org. 2008-10-01. doi:10.14217/9781848590151-8-en. Retrieved 2021-06-03.
+ Hobold, Edilson; Pires-Lopes, Vitor; Gómez-Campos, Rossana; Arruda, Miguel de; Andruske, Cynthia Lee; Pacheco-Carrillo, Jaime; Cossio-Bolaños, Marco Antonio (30 November 2017). "Table 1: Descriptive statistics (mean ± standard-deviation) for somatic variables and physical fitness ítems for males and females". PeerJ. 5: e4032. doi:10.7717/peerj.4032/table-1. Retrieved 2021-06-03.
+ Ablin, Jacob N.; Zohar, Ada H.; Zaraya-Blum, Reut; Buskila, Dan (13 September 2016). "Table 2: Cluster analysis presenting mean values of psychological variables per cluster group". PeerJ. 4: e2421. doi:10.7717/peerj.2421/table-2. Retrieved 2021-06-03.
+ "Consultants Employed by McKinsey & Company", Organizational Behavior 5, Routledge, pp. 77–82, 2008-07-30, doi:10.4324/9781315701974-15, ISBN 978-1-315-70197-4, retrieved 2021-06-03
+ Antiphanes (2007), Olson, S. Douglas (ed.), "H6 Antiphanes fr.172.1-4, from Women Who Looked Like Each Other or Men Who Looked Like Each Other", Broken Laughter: Select Fragments of Greek Comedy, Oxford University Press, doi:10.1093/oseo/instance.00232915, ISBN 978-0-19-928785-7, retrieved 2021-06-03
+ Carey, Malachy (November 1981). "On Mutually Exclusive and Collectively Exhaustive Properties of Demand Functions". Economica. 48 (192): 407–415. doi:10.2307/2553697. ISSN 0013-0427. JSTOR 2553697.
+ "Total tax revenue". dx.doi.org. doi:10.1787/352874835867. Retrieved 2021-06-03.
+ "Dual-use car may solve transportation problems". Chemical & Engineering News Archive. 46 (24): 44. 1968-06-03. doi:10.1021/cen-v046n024.p044. ISSN 0009-2347.
+ Heckman (1978). "Simple Statistical Models for Discrete Panel Data Developed and Applied to Test the Hypothesis of True State Dependence against the Hypothesis of Spurious State Dependence". Annales de l'inséé (30/31): 227–269. doi:10.2307/20075292. ISSN 0019-0209. JSTOR 20075292.
+ Koontz, Dean (2017). False Memory. Headline Book Publishing. ISBN 978-1-4722-4830-5. OCLC 966253202.
+ Munday, Stephen C. R. (1996), "Unemployment, Inflation and the Phillips Curve", Current Developments in Economics, London: Macmillan Education UK, pp. 186–218, doi:10.1007/978-1-349-24986-2_11, ISBN 978-0-333-64444-7, retrieved 2021-06-03
+ Louangrath, Paul I. (2013). "Alpha and Beta Tests for Type I and Type II Inferential Errors Determination in Hypothesis Testing". SSRN Electronic Journal. doi:10.2139/ssrn.2332756. ISSN 1556-5068.
+ Walko, Ann M. (2006). Rejecting the second generation hypothesis : maintaining Estonian ethnicity in Lakewood, New Jersey. AMS Press. ISBN 0-404-19454-0. OCLC 467107876.
+ Yanamandra, Venkataramana (September 2015). "Exchange rate changes and inflation in India: What is the extent of exchange rate pass-through to imports?". Economic Analysis and Policy. 47: 57–68. doi:10.1016/j.eap.2015.07.004. ISSN 0313-5926.
+ Mudiyanselage, Nawarathna; Nawarathna, Pubudu Manoj. Characterization of epigenetic changes and their connection to gene expression abnormalities in clear cell renal cell carcinoma. OCLC 1190697848.
+ Moreno Delgado, David; Møller, Thor C.; Ster, Jeanne; Giraldo, Jesús; Maurel, Damien; Rovira, Xavier; Scholler, Pauline; Zwier, Jurriaan M.; Perroy, Julie; Durroux, Thierry; Trinquet, Eric; Prezeau, Laurent; Rondard, Philippe; Pin, Jean-Philippe (29 June 2017). Chao, Moses V (ed.). "Appendix 1—figure 5. Curve data included in Appendix 1—table 4 (solid points) and the theoretical curve by using the Hill equation parameters of Appendix 1—table 5 (curve line)". eLife. 6: e25233. doi:10.7554/elife.25233.027. Retrieved 2021-06-03.
+ Feinmann, Jane. "How Can Engineers and Journalists Help Each Other?". dx.doi.org. doi:10.1049/iet-tv.48.859. Retrieved 2021-06-03.
+ Dul, Jan (2015). "Necessary Condition Analysis (NCA): Logic and Methodology of 'Necessary But Not Sufficient' Causality". SSRN Electronic Journal. doi:10.2139/ssrn.2588480. hdl:1765/77890. ISSN 1556-5068. S2CID 219380122.
+ Robert Amar, James Eagan, and John Stasko (2005) "Low-Level Components of Analytic Activity in Information Visualization"
+ William Newman (1994) "A Preliminary Analysis of the Products of HCI Research, Using Pro Forma Abstracts"
+ Mary Shaw (2002) "What Makes Good Research in Software Engineering?"
+ Yavari, Ali; Jayaraman, Prem Prakash; Georgakopoulos, Dimitrios; Nepal, Surya (2017). ConTaaS: An Approach to Internet-Scale Contextualisation for Developing Efficient Internet of Things Applications. ScholarSpace. Proceedings of the 50th Hawaii International Conference on System Sciences (2017). HICSS50. doi:10.24251/HICSS.2017.715. hdl:10125/41879. ISBN 9780998133102. Retrieved May 24, 2017.
+ "Connectivity tool transfers data among database and statistical products". Computational Statistics & Data Analysis. 8 (2): 224. July 1989. doi:10.1016/0167-9473(89)90021-2. ISSN 0167-9473.
+ "Information relevant to your job", Obtaining Information for Effective Management, Routledge, pp. 48–54, 2007-07-11, doi:10.4324/9780080544304-16, ISBN 978-0-08-054430-4, retrieved 2021-06-03
+ Lehmann, E. L. (2010). Testing statistical hypotheses. Springer. ISBN 978-1-4419-3178-8. OCLC 757477004.
+ Fielding, Henry (2008-08-14), "Consisting partly of facts, and partly of observations upon them", Tom Jones, Oxford University Press, doi:10.1093/owc/9780199536993.003.0193, ISBN 978-0-19-953699-3, retrieved 2021-06-03
+ "Congressional Budget Office-The Budget and Economic Outlook-August 2010-Table 1.7 on Page 24" (PDF). 18 August 2010. Retrieved 2011-03-31.
+ "Students' sense of belonging, by immigrant background". PISA 2015 Results (Volume III). PISA. 2017-04-19. doi:10.1787/9789264273856-table125-en. ISBN 9789264273818. ISSN 1996-3777.
+ Gordon, Roger (March 1990). "Do Publicly Traded Corporations Act in the Public Interest?". Cambridge, MA. doi:10.3386/w3303.
+ Minardi, Margot (2010-09-24), "Facts and Opinion", Making Slavery History, Oxford University Press, pp. 13–42, doi:10.1093/acprof:oso/9780195379372.003.0003, ISBN 978-0-19-537937-2, retrieved 2021-06-03
+ Rivard, Jillian R (2014). Confirmation bias in witness interviewing: Can interviewers ignore their preconceptions? (Thesis). Florida International University. doi:10.25148/etd.fi14071109.
+ Papineau, David (1988), "Does the Sociology of Science Discredit Science?", Relativism and Realism in Science, Dordrecht: Springer Netherlands, pp. 37–57, doi:10.1007/978-94-009-2877-0_2, ISBN 978-94-010-7795-8, retrieved 2021-06-03
+ Bromme, Rainer; Hesse, Friedrich W.; Spada, Hans, eds. (2005). Barriers and Biases in Computer-Mediated Knowledge Communication. doi:10.1007/b105100. ISBN 978-0-387-24317-7.
+ Heuer, Richards (2019-06-10). Heuer, Richards J (ed.). Quantitative Approaches to Political Intelligence. doi:10.4324/9780429303647. ISBN 9780429303647. S2CID 145675822.
+ "Introduction" (PDF). cia.gov.
+ "Figure 6.7. Differences in literacy scores across OECD countries generally mirror those in numeracy". dx.doi.org. doi:10.1787/888934081549. Retrieved 2021-06-03.
+ Bloomberg-Barry Ritholz-Bad Math that Passes for Insight-October 28, 2014
+ Gusnaini, Nuriska; Andesto, Rony; Ermawati (2020-12-15). "The Effect of Regional Government Size, Legislative Size, Number of Population, and Intergovernmental Revenue on The Financial Statements Disclosure". European Journal of Business and Management Research. 5 (6). doi:10.24018/ejbmr.2020.5.6.651. ISSN 2507-1076. S2CID 231675715.
+ Linsey, Julie S.; Becker, Blake (2011), "Effectiveness of Brainwriting Techniques: Comparing Nominal Groups to Real Teams", Design Creativity 2010, London: Springer London, pp. 165–171, doi:10.1007/978-0-85729-224-7_22, ISBN 978-0-85729-223-0, retrieved 2021-06-03
+ Lyon, J. (April 2006). "Purported Responsible Address in E-Mail Messages". doi:10.17487/rfc4407.
+ Stock, Eugene (10 June 2017). The History of the Church Missionary Society Its Environment, its Men and its Work. ISBN 978-3-337-18120-8. OCLC 1189626777.
+ Gross, William H. (July 1979). "Coupon Valuation and Interest Rate Cycles". Financial Analysts Journal. 35 (4): 68–71. doi:10.2469/faj.v35.n4.68. ISSN 0015-198X.
+ "25. General government total outlays". dx.doi.org. doi:10.1787/888932348795. Retrieved 2021-06-03.
+ González-Vidal, Aurora; Moreno-Cano, Victoria (2016). "Towards energy efficiency smart buildings models based on intelligent data analytics". Procedia Computer Science. 83 (Elsevier): 994–999. doi:10.1016/j.procs.2016.04.213.
+ "Low-Energy Air Conditioning and Lighting Control", Building Energy Management Systems, Routledge, pp. 406–439, 2013-07-04, doi:10.4324/9780203477342-18, ISBN 978-0-203-47734-2, retrieved 2021-06-03
+ Davenport, Thomas; Harris, Jeanne (2007). Competing on Analytics. O'Reilly. ISBN 978-1-4221-0332-6.
+ Aarons, D. (2009). Report finds states on course to build pupil-data systems. Education Week, 29(13), 6.
+ Rankin, J. (2013, March 28). How data Systems & reports can either fight or propagate the data analysis error epidemic, and how educator leaders can help. Archived 2019-03-26 at the Wayback Machine Presentation conducted from Technology Information Center for Administrative Leadership (TICAL) School Leadership Summit.
+ Brödermann, Eckart J. (2018), "Article 2.2.1 (Scope of the Section)", Commercial Law, Nomos Verlagsgesellschaft mbH & Co. KG, p. 525, doi:10.5771/9783845276564-525, ISBN 978-3-8452-7656-4, retrieved 2021-06-03
+ Jaech, J.L. (1960-04-21). "Analysis of dimensional distortion data from initial 24 quality certification tubes". doi:10.2172/10170345. S2CID 110058009.
+ Adèr 2008a, p. 337.
+ Kjell, Oscar N. E.; Thompson, Sam (19 December 2013). "Descriptive statistics indicating the mean, standard deviation and frequency of missing values for each condition (N = number of participants), and for the dependent variables (DV)". PeerJ. 1: e231. doi:10.7717/peerj.231/table-1. Retrieved 2021-06-03.
+ Practice for Dealing With Outlying Observations, ASTM International, doi:10.1520/e0178-16a, retrieved 2021-06-03
+ "Alternative Coding Schemes for Dummy Variables", Regression with Dummy Variables, Newbury Park, CA: SAGE Publications, Inc., pp. 64–75, 1993, doi:10.4135/9781412985628.n5, ISBN 978-0-8039-5128-0, retrieved 2021-06-03
+ Adèr 2008a, pp. 338–341.
+ Danilyuk, P. M. (July 1960). "Computing the displacement of the initial contour of gears when they are checked by means of balls". Measurement Techniques. 3 (7): 585–587. doi:10.1007/bf00977716. ISSN 0543-1972. S2CID 121058145.
+ Newman, Isadore (1998). Qualitative-quantitative research methodology : exploring the interactive continuum. Southern Illinois University Press. ISBN 0-585-17889-5. OCLC 44962443.
+ Terwilliger, James S.; Lele, Kaustubh (June 1979). "Some Relationships Among Internal Consistency, Reproducibility, and Homogeneity". Journal of Educational Measurement. 16 (2): 101–108. doi:10.1111/j.1745-3984.1979.tb00091.x. ISSN 0022-0655.
+ Adèr 2008a, pp. 341–342.
+ Adèr 2008a, p. 344.
+ Tabachnick & Fidell, 2007, p. 87-88.
+ Tchakarova, Kalina (October 2020). "2020/31 Comparing job descriptions is insufficient for checking whether work is equally valuable (BG)". European Employment Law Cases. 5 (3): 168–170. doi:10.5553/eelc/187791072020005003006. ISSN 1877-9107. S2CID 229008899.
+ Random sampling and randomization procedures, BSI British Standards, doi:10.3403/30137438, retrieved 2021-06-03
+ Adèr 2008a, pp. 344–345.
+ Sandberg, Margareta (June 2006). "Acupuncture Procedures Must be Accurately Described". Acupuncture in Medicine. 24 (2): 92–94. doi:10.1136/aim.24.2.92. ISSN 0964-5284. PMID 16783285. S2CID 30286074.
+ Jaarsma, C.F. Verkeer in een landelijk gebied: waarnemingen en analyse van het verkeer in zuidwest Friesland en ontwikkeling van een verkeersmodel. OCLC 1016575584.
+ Foth, Christian; Hedrick, Brandon P.; Ezcurra, Martin D. (18 January 2016). "Figure 4: Centroid size regression analyses for the main sample". PeerJ. 4: e1589. doi:10.7717/peerj.1589/fig-4. Retrieved 2021-06-03.
+ Adèr 2008a, p. 345.
+ "The Final Years (1975-84)", The Road Not Taken, Boydell & Brewer, pp. 853–922, 2018-06-18, doi:10.2307/j.ctv6cfncp.26, ISBN 978-1-57647-332-0, S2CID 242072487, retrieved 2021-06-03
+ Fitzmaurice, Kathryn (17 March 2015). Destiny, rewritten. ISBN 978-0-06-162503-9. OCLC 905090570.
+ "Supplementary file 4. Raw data and R-based analyses". dx.doi.org. 7 March 2017. doi:10.7554/elife.24102.023. Retrieved 2021-06-03.
+ Adèr 2008a, pp. 345–346.
+ Adèr 2008a, pp. 346–347.
+ Adèr 2008a, pp. 349–353.
+ Billings S.A. "Nonlinear System Identification: NARMAX Methods in the Time, Frequency, and Spatio-Temporal Domains". Wiley, 2013
+ Adèr 2008b, p. 363.
+ "Exploratory Data Analysis", Python® for R Users, Hoboken, NJ, USA: John Wiley & Sons, Inc., pp. 119–138, 2017-10-13, doi:10.1002/9781119126805.ch4, hdl:11380/971504, ISBN 978-1-119-12680-5, retrieved 2021-06-03
+ "Engaging in Exploratory Data Analysis, Visualization, and Hypothesis Testing ............................................................................................. Exploratory Data Analysis, Geovisualization, and Data", Spatial Analysis, CRC Press, pp. 106–139, 2015-07-28, doi:10.1201/b18808-8, ISBN 978-0-429-06936-9, S2CID 133412598, retrieved 2021-06-03
+ "Hypotheses About Categories", Starting Statistics: A Short, Clear Guide, London: SAGE Publications Ltd, pp. 138–151, 2010, doi:10.4135/9781446287873.n14, ISBN 978-1-84920-098-1, retrieved 2021-06-03
+ Sordo, Rachele Del; Sidoni, Angelo (December 2008). "MIB-1 Cell Membrane Reactivity: A Finding That Should be Interpreted Carefully". Applied Immunohistochemistry & Molecular Morphology. 16 (6): 568. doi:10.1097/pai.0b013e31817af2cf. ISSN 1541-2016. PMID 18800001.
+ Liquet, Benoit; Riou, Jérémie (2013-06-08). "Correction of the significance level when attempting multiple transformations of an explanatory variable in generalized linear models". BMC Medical Research Methodology. 13 (1): 75. doi:10.1186/1471-2288-13-75. ISSN 1471-2288. PMC 3699399. PMID 23758852.
+ Mcardle, John J. (2008). "Some ethical issues in confirmatory versus exploratory analysis". PsycEXTRA Dataset. doi:10.1037/e503312008-001. Retrieved 2021-06-03.
+ Adèr 2008b, pp. 361–362.
+ Adèr 2008b, pp. 361–371.
+ Truswell IV, William H., ed. (2009), "3 The Facelift: A Guide for Safe, Reliable, and Reproducible Results", Surgical Facial Rejuvenation, Stuttgart: Georg Thieme Verlag, doi:10.1055/b-0034-73436, ISBN 978-1-58890-491-1, retrieved 2021-06-03
+ "Supplementary file 1. Cross-validation schema". dx.doi.org. 6 December 2018. doi:10.7554/elife.40224.014. Retrieved 2021-06-03.
+ Hsiao, Cheng (2014), "Cross-Sectionally Dependent Panel Data", Analysis of Panel Data, Cambridge: Cambridge University Press, pp. 327–368, doi:10.1017/cbo9781139839327.012, ISBN 978-1-139-83932-7, retrieved 2021-06-03
+ Hjorth, J.S. Urban (2017-10-19), "Cross validation", Computer Intensive Statistical Methods, Chapman and Hall/CRC, pp. 24–56, doi:10.1201/9781315140056-3, ISBN 978-1-315-14005-6, retrieved 2021-06-03
+ Sheikholeslami, Razi; Razavi, Saman; Haghnegahdar, Amin (2019-10-10). "What should we do when a model crashes? Recommendations for global sensitivity analysis of Earth and environmental systems models". Geoscientific Model Development. 12 (10): 4275–4296. Bibcode:2019GMD....12.4275S. doi:10.5194/gmd-12-4275-2019. ISSN 1991-9603. S2CID 204900339.
+ "Human development composite indices". dx.doi.org. 2018-09-19. doi:10.18356/ce6f8e92-en. S2CID 240207510. Retrieved 2021-06-03.
+ Wiley, Matt; Wiley, Joshua F. (2019), "Multivariate Data Visualization", Advanced R Statistical Programming and Data Models, Berkeley, CA: Apress, pp. 33–59, doi:10.1007/978-1-4842-2872-2_2, ISBN 978-1-4842-2871-5, S2CID 86629516, retrieved 2021-06-03
+ Orduna-Malea, Enrique; Alonso-Arroyo, Adolfo (2018), "A cybermetric analysis model to measure private companies", Cybermetric Techniques to Evaluate Organizations Using Web-Based Data, Elsevier, pp. 63–76, doi:10.1016/b978-0-08-101877-4.00003-x, ISBN 978-0-08-101877-4, retrieved 2021-06-03
+ Leen, A.R. The consumer in Austrian economics and the Austrian perspective on consumer policy. ISBN 90-5808-102-8. OCLC 1016689036.
+ "Examples of Survival Data Analysis", Statistical Methods for Survival Data Analysis, Wiley Series in Probability and Statistics, Hoboken, NJ, USA: John Wiley & Sons, Inc., 2003-06-30, pp. 19–63, doi:10.1002/0471458546.ch3, ISBN 978-0-471-45854-8, retrieved 2021-06-03
+ "The machine learning community takes on the Higgs". Symmetry Magazine. July 15, 2014. Retrieved 14 January 2015.
+ Nehme, Jean (September 29, 2016). "LTPP International Data Analysis Contest". Federal Highway Administration. Retrieved October 22, 2017.
+ "Data.Gov:Long-Term Pavement Performance (LTPP)". May 26, 2016. Retrieved November 10, 2017.
+Bibliography
+Adèr, Herman J. (2008a). "Chapter 14: Phases and initial steps in data analysis". In Adèr, Herman J.; Mellenbergh, Gideon J.; Hand, David J (eds.). Advising on research methods : a consultant's companion. Huizen, Netherlands: Johannes van Kessel Pub. pp. 333–356. ISBN 9789079418015. OCLC 905799857.
+Adèr, Herman J. (2008b). "Chapter 15: The main analysis phase". In Adèr, Herman J.; Mellenbergh, Gideon J.; Hand, David J (eds.). Advising on research methods : a consultant's companion. Huizen, Netherlands: Johannes van Kessel Pub. pp. 357–386. ISBN 9789079418015. OCLC 905799857.
+Tabachnick, B.G. & Fidell, L.S. (2007). Chapter 4: Cleaning up your act. Screening data prior to analysis. In B.G. Tabachnick & L.S. Fidell (Eds.), Using Multivariate Statistics, Fifth Edition (pp. 60–116). Boston: Pearson Education, Inc. / Allyn and Bacon.
+Further reading
+
+Wikiversity has learning resources about Data analysis
+Adèr, H.J. & Mellenbergh, G.J. (with contributions by D.J. Hand) (2008). Advising on Research Methods: A Consultant's Companion. Huizen, the Netherlands: Johannes van Kessel Publishing. ISBN 978-90-79418-01-5
+Chambers, John M.; Cleveland, William S.; Kleiner, Beat; Tukey, Paul A. (1983). Graphical Methods for Data Analysis, Wadsworth/Duxbury Press. ISBN 0-534-98052-X
+Fandango, Armando (2017). Python Data Analysis, 2nd Edition. Packt Publishers. ISBN 978-1787127487
+Juran, Joseph M.; Godfrey, A. Blanton (1999). Juran's Quality Handbook, 5th Edition. New York: McGraw Hill. ISBN 0-07-034003-X
+Lewis-Beck, Michael S. (1995). Data Analysis: an Introduction, Sage Publications Inc, ISBN 0-8039-5772-6
+NIST/SEMATECH (2008) Handbook of Statistical Methods,
+Pyzdek, T, (2003). Quality Engineering Handbook, ISBN 0-8247-4614-7
+Richard Veryard (1984). Pragmatic Data Analysis. Oxford : Blackwell Scientific Publications. ISBN 0-632-01311-7
+Tabachnick, B.G.; Fidell, L.S. (2007). Using Multivariate Statistics, 5th Edition. Boston: Pearson Education, Inc. / Allyn and Bacon, ISBN 978-0-205-45938-4
+vte
+Data
+Authority control: National libraries Edit this at Wikidata	
+GermanyCzech Republic
+Categories: Data analysisData processingScientific methodComputational fields of studyBig dataData management
+Navigation menu
+Not logged in
+Talk
+Contributions
+Create account
+Log in
+ArticleTalk
+ReadEditView history
+Search
+Search Wikipedia
+Main page
+Contents
+Current events
+Random article
+About Wikipedia
+Contact us
+Donate
+Contribute
+Help
+Learn to edit
+Community portal
+Recent changes
+Upload file
+Tools
+What links here
+Related changes
+Special pages
+Permanent link
+Page information
+Cite this page
+Wikidata item
+Print/export
+Download as PDF
+Printable version
+In other projects
+Wikimedia Commons
+
+Languages
+???????
+Español
+Français
+??????
+Bahasa Indonesia
+?????
+???????
+?????
+??
+27 more
+Edit links
+This page was last edited on 10 August 2022, at 08:34 (UTC).
+Text is available under the Creative Commons Attribution-ShareAlike License 3.0; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
